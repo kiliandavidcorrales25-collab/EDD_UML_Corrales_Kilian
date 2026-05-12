@@ -5,7 +5,7 @@
 
 2. Para la Actividad 2 y 3 de “Verificar stock” y “Verificar validez de la sesión” se decide usar el modelo de subActividad, haciendo un UML interno, para no sobrecargar el UML principal
    
-3- Dentro de la Actividad 2, se comprueba si el “artículo” que quiere comprar el cliente queda en stock, sino es asi, 
+3. Dentro de la Actividad 2, se comprueba si el “artículo” que quiere comprar el cliente queda en stock, sino es asi, 
 lo sacará automáticamente del carrito y se finaliza la compra, si queda stock, continuará
    
 4. Dentro de la Actividad 3, se comprobará si el usuario tiene su cuenta iniciada, de no ser así, se le preguntará por sus datos para loguearse, 
@@ -23,10 +23,10 @@ y envío de notificación al usuario, este último será una subActividad, ya qu
 Cuando estos 3 proceso acaben se mostrará un mensaje de confirmación y se enviará a la página de compra otra vez, y terminará
 
 ## Herramientas usadas 
-**Los nodos de si­n­cro­ni­za­ción:** funcionan de unificación para varias transacciones en UML, Se usa cuando varios conexiones entran a la vez, pero sólo uno de ellos puede salir.	
+**Los nodos de si­n­cro­ni­za­ción:** funcionan de unificación para varias transacciones en UML, Se usa cuando varios conexiones entran a la vez, pero sólo uno de ellos puede salir.	[1]
+
 **SubActivad**: Un UML interno al UML principal, que se usa para descargar carga del UML principal y no se vea tan compacto
 
 ## Referencias
-
-Diagramas de actividades: el flujo de trabajo representado gráficamente. (2023, marzo 1). ionos Digital Guide. https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/diagramas-de-actividades-uml/
+[1] Diagramas de actividades: el flujo de trabajo representado gráficamente. (2023, marzo 1). ionos Digital Guide. https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/diagramas-de-actividades-uml/ 
 
