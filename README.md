@@ -22,6 +22,9 @@ cuando sea exitoso se volverá a realizar la estrategia del modelo de subActivid
 y envío de notificación al usuario, este último será una subActividad, ya que debe comprobar los datos del usuario logueado en el sistema
 Cuando estos 3 proceso acaben se mostrará un mensaje de confirmación y se enviará a la página de compra otra vez, y terminará
 
+<img width="1374" height="1030" alt="Diagrama" src="https://github.com/user-attachments/assets/da166b0d-83ad-48f9-bcbb-02c631b949e8" />
+
+
 ## Herramientas usadas 
 **Los nodos de si­n­cro­ni­za­ción:** funcionan de unificación para varias transacciones en UML, Se usa cuando varios conexiones entran a la vez, pero sólo uno de ellos puede salir.	[1]
 
